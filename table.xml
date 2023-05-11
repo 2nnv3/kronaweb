@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE employees SYSTEM "employees.dtd"> -->
+<?xml-stylesheet type="text/css" href="styles1.css"?>
+
+<employees>
+  <employee>
+    <id>1</id>
+    <name>John Smith</name>
+    <position>Cashier</position>
+    <department>Front-end</department>
+    <salary>25000</salary>
+  </employee>
+  <employee>
+    <id>2</id>
+    <name>Mary Johnson</name>
+    <position>Stock Clerk</position>
+    <department>Back-end</department>
+    <salary>20000</salary>
+  </employee>
+  <employee>
+    <id>3</id>
+    <name>Robert Lee</name>
+    <position>Assistant Manager</position>
+    <department>Management</department>
+    <salary>35000</salary>
+  </employee>
+  <employee>
+    <id>4</id>
+    <name>Sarah Wong</name>
+    <position>Marketing Specialist</position>
+    <department>Marketing</department>
+    <salary>30000</salary>
+  </employee>
+</employees>

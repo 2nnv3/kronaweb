@@ -1,0 +1,33 @@
+/* Установка серого фона таблицы */
+employee {
+  display: table-row;
+}
+
+/* Центрирование таблицы по горизонтали */
+employees {
+  margin: 100px auto;
+  display: table;
+  border-collapse: collapse;
+}
+
+Aid,
+Aname,
+Aversion,
+Ameasurement {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  background: rgb(207, 24, 207);
+}
+
+id,
+name,
+position,
+department,
+salary {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="raspisanie.css">
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Hours</th>
+  </tr>
+  <xsl:for-each select="schedule/day">
+    <tr>
+      <td><xsl:value-of select="@name"/></td>
+      <td><xsl:value-of select="hours"/></td>
+    </tr>
+  </xsl:for-each>
+</table>

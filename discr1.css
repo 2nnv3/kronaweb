@@ -1,0 +1,148 @@
+.product-container {
+    margin-top:110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-container img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  .product-description {
+    max-width: 50%;
+  }
+  
+  .product-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    flex:1 1 auto;
+  }
+
+  nav {
+    background-color: #1b6306;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-size: 10px;
+  }
+  .foot{
+    color:#fff;
+  }
+  p{
+    color:rgb(150, 146, 146)
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 320px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 5px;
+  }
+  footer {
+    background-color: #1b6306;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  .svg-container{
+    margin-left: 5%;
+    width:50px;
+    height:50px;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.center-button {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #1b6306;
+    width: 300px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .products {
+      justify-content: center;
+  }
+
+  .products li {
+      width: 55%;
+      margin-bottom: 50px;
+  }
+  .svg-container{
+  margin-left: 0;
+  width:15px;
+  height: 30px;
+  }
+ 
+  nav li{
+      font-size: 10px;
+  }
+}
+
+@media (max-width : 682px) {
+  .product-container{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 320px){
+  nav a{
+    font-size: 9px;
+  }
+  .svg-container{
+    margin-left: 0;
+    width:30px;
+    height: 40px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px){
+  .svg-container{
+    margin-left: 0;
+    width:35px;
+    height: 45px;
+    }
+
+}
